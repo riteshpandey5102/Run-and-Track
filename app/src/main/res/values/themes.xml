@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Runandtrack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_color</item>
+        <item name="colorPrimaryVariant">@color/main_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- Customize your theme here. -->
+        <item name="android:itemTextAppearance">@style/CustomTextItem</item> <!--menu item styling top bar-->
+    </style>
+
+    <style name="CustomTextItem" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:fontFamily">@font/montserrat_alternates</item>
+        <item name="android:textSize">@dimen/sixteen_sp</item>
+    </style>
+    <style name="CustomTextItemUnselected" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:fontFamily">@font/montserrat_alternates</item>
+        <item name="android:textSize">@dimen/twelve_sp</item>
+    </style>
+
+</resources>
