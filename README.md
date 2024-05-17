@@ -2,7 +2,7 @@
 This application is a running tracking application based on modern Android tech-stacks and MVVM architecture.  
 It allows users to track their running activities, displaying real-time routes on an interactive map while storing essential statistics using Room database.
 
-__[APK Link]()__
+__[APK Link](https://github.com/riteshpandey5102/Run-and-Track/blob/main/app-debug.apk)__
 
 ## Tech stack & Open-source libraries
 - Kotlin based, Coroutines + Flow for asynchronous.
